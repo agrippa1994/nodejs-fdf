@@ -22,7 +22,7 @@ How to use this module inside your script?
 var fdf = require("fdf");
 
 try{
-	console.log(fdf.createFDF("test.fdf", {name_verkaeufer: "ValueÃ¤Ã¶Ã¼ÃœÃ–Ã„ÃŸ"}));
+	console.log(fdf.createFDF("test.fdf", {field_name: "Filled field value"}));
 } catch(e) {
 	console.log("Exception: " + e);
 }
